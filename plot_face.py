@@ -33,5 +33,5 @@ alpha = 30
 plt.subplot(133)
 sharp = blur+alpha*(blur-blur_G)
 
-plt.imshow(sharp)
+plt.imshow(sharp) # sharpening the image with NumPy and SciPy
 plt.show()
